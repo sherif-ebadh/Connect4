@@ -37,9 +37,9 @@ To start playing the game use the following URL
 < br/>  /connect4/game/{gameID}/player/{playerId}/col/{col}   Method : PUT  < br/>
 <h3>where</h3>
 <ul>
-<li>gameID : is game ID provided in the pervious call
+<li>gameID : is game ID provided in the previous call
 <li>playerId  : player Id of the current move - first player is PLayer1 -
-<li>col : is the selected Column from the player - The Game boared is 6 Rows and & column "Columun start from 0 to 6" -
+<li>col : is the selected Column from the player - The Game board is 6 Rows and & column "Column start from 0 to 6" -
 </ul>
 
 <h3>The expected response</h3> 
@@ -108,6 +108,6 @@ The response in Json Format will include the following :
 <li>isValidEntry: True if the candidate selected column is valid</li>
 <li>currentBoard: current connect4 board after move</li>
 </ul>
-if the move is valid the player ID will be placed in the first avilable cell of the selected coulmn
+if the move is valid the player ID will be placed in the first available cell of the selected column
 
 Note : I used simple Objects as the application is a POC 
